@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+}
+body{
+	
+	background: url("menu.png");
+	background-size: cover;
+	height: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+    /*nav*/
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #4682B4;
+	
+    
+}
+
+.navbar ul {
+    text-align: center;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+	background-color: lightcoral;
+	
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 35px;    
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:black;
+    opacity: 1;
+    font-style: bold;
+}
+
+.navbar ul li a:hover {
+    opacity: 1;
+	color:#fff;
+	transition:0.5s;
+}
+
+.navbar .activ {
+    color: white;
+}
+/*search and mmenu*/
+.search p{
+	font-size: 150px;
+	margin-top: -30px;
+	margin-left: 30px;
+	font-family:Monaco;
+	color:lightcoral;
+}
+input[type="search"]{
+	margin-left: 400px;
+	margin-top: -80px;
+	width: 340px;
+	height: 30px;
+	font-size:17px;
+	border: 1.5px solid lightcoral;
+	transition:width 2s;
+	outline: 0;
+	cursor: pointer;
+	padding-left: 5px;
+}
+input::placeholder{
+	color:lightcoral
+}
+input[type="search"]:focus{
+	width: 1110px;
+}
+/*imges*/
+marquee img{
+	width: 400px;
+	height: 300px;
+	margin-left: 16px;
+	cursor: pointer;
+}
+/*menu*/
+.menu{
+	color:lightcoral;
+	text-align: center;
+	border: 5px solid  lightcoral;
+	margin-left:100px;
+	margin-right: 100px;
+	
+	
+}
+.menu h1{
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 80px;
+	font-family: Monaco;
+	margin-bottom: 10px;
+	
+}
+h1::first-letter{
+	font-size: 85;
+	color: white;
+}
+.menu ol li{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Monaco;
+	list-style-type:none;
+	margin-top: 40px;
+	opacity: 1;
+	cursor: pointer;
+}
+.menu ol p{
+	
+	font-weight: bold;
+	font-style: oblique;
+	font-family:  Arial;
+	color: white;
+	font-size: 20px;
+	margin-top: 12px;
+	text-align: left;
+	margin-left: 40px;
+	
+	
+}
+.menu ol li:hover{
+	opacity: 0.5;
+}
+/*accroding image slider*/
+.all img{
+	width:500px;
+	height: 300px;
+	margin-left: -40;
+}
+.all{
+	width:1200px;
+	border:1px solid #DDD;
+	height: 300px;
+	overflow: hidden;
+	background: 0;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.all  li {
+	width:30px;
+	display:block;
+	position: relative;
+	float:left;
+	border-left: 1px solid #DDD;
+	transition:  all 0.7s;
+}
+.all .title{
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 500px;
+	margin-left: -40px;
+}
+.all .title a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	margin: auto;
+}
+.all ul:hover  li{
+	width:18px;
+}
+.all ul li:hover
+{
+	width:450px;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: 310px;
+    margin-top: 20px;
+	padding-top: 10px;
+    background:lightcoral;
+	
+}
+.follow{
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.follow li{
+	display: inline;
+    
+    
+}
+footer img{
+	
+	width: 50px;
+	height: 50px;
+	margin-right: 18px;
+  
+	
+}
+.follow img:hover{
+	width: 40px;
+	height: 40px;
+    cursor: pointer;
+}
+.follow p{
+	font-family: Monaco;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+    margin-left: 60px;
+	
+}
+.add{
+    margin-top: 64px;
+    padding-left: 500px;
+    margin-left: 20px;
+    
+    font-family: Monaco;
+}
+.add h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.add p{
+    font-size: 20px;
+}
+
+fieldset{
+    width: 100px;
+    border-color: black;
+}
+textarea::placeholder{
+    color:lightcoral;
+}
+.input{
+   float: right;
+    margin-right: 240px;
+    margin-top: -175px;
+}
+legend{
+    font-family: Monaco;
+    font-size: 25px;
+}
+footer input{
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+textarea{
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.input input[type=submit]
+{
+    margin-left: 105px;
+    width: 90px;
+    height: 34px;
+    font-family: Monaco;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:white;
+    color: lightcoral;
+    border-radius: 10px;
+}
+.input input[type=submit]:hover{
+    background-color:lightcoral;
+    
+    color: white;
+    cursor: pointer;
+}
